@@ -1,7 +1,3 @@
-
-#from tkinter import N
-
-
 fin = open('word.txt')
 
 include = []
@@ -18,7 +14,7 @@ exc_2 = []
 exc_3 = []
 exc_4 = []
 
-def list_include(): 
+def list_include():
     incl_add = None
     while incl_add != '.':
         incl_add = input(f"valid letters: ")
